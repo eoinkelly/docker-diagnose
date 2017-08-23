@@ -1,6 +1,10 @@
 FROM alpine:latest
 
 ENV PACKAGES "binutils-gold \
+  bash \
+  wget \
+  lynx \
+  elinks \
   g++ \
   gcc \
   libgcc \
