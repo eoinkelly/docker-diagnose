@@ -24,6 +24,7 @@ ENV PACKAGES "binutils-gold \
   imagemagick-dev \
   git \
   tzdata \
+  htop \
   curl"
 
 RUN apk add --no-cache ${PACKAGES}
